@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_AnexoIIreadeFundeio1_4 = function(feature, resolution){
+var style_AnexoVreadeEsperadoPrtico_1 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_AnexoIIreadeFundeio1_4 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(112,195,246,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(112,195,246,0.30196078431372547)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(25,94,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(25,94,255,0.30196078431372547)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
